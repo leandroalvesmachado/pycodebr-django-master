@@ -1,0 +1,14 @@
+- Criar projeto
+django-admin startproject app .
+
+- Rodar projeto
+python manage.py runserver
+
+- Criar modelo
+
+- Comando para migrar modelo no banco de dados
+python manage.py makemigrations (cria a migração de acordo com os modelos)
+python manage.py migrate
+
+- gestão de imagens
+
