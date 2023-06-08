@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<form action="" method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+    {% comment %} new_car_form.as_p = adiciona um parágrafo para cada campo {% endcomment %}
+    {% comment %} new_car_form.as_table = adiciona uma tabela para cada campo, precisa do elemento table antes {% endcomment %}
+    <table>
+    {{ form.as_table }}
+    </table>
+    <input type="submit" value="Cadastrar" class="btn btn-primary">
+</form>
+
+{% endblock %}

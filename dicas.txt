@@ -12,3 +12,5 @@ python manage.py migrate
 
 - gestão de imagens
 
+- Class based views: https://docs.djangoproject.com/en/4.2/ref/class-based-views/
+
